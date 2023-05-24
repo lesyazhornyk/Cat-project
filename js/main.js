@@ -21,8 +21,6 @@ next.addEventListener("click", onNextClick);
 prev.addEventListener("click", onPrevClick);
 
 const lightbox = new SimpleLightbox(".gallery a", {
-  closeText: "&#128514;",
-  fadeSpeed: 1000
 });
 
 AOS.init();
